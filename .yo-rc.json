@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "mobileapp",
+    "packageName": "com.medinilla.mobileapp",
+    "packageFolder": "com/medinilla/mobileapp",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "db1ca106fb2999dace3a904a2a7d12d453d936bf",
+    "testFrameworks": [
+      "cucumber",
+      "protractor"
+    ]
+  }
+}
